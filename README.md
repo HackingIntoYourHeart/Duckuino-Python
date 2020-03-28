@@ -23,3 +23,5 @@ python duckuino.py <Path to Duckyscript file>
 ```
 
 Your output.ino file will be placed into the "output" folder.
+
+Now, compile!
