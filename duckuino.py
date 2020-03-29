@@ -237,7 +237,7 @@ for line in lines:
 			elif listToString(commands[0]) == command_list[23]:
 				RESPONSE = ENTER
 			elif len(listToString(commands[0])) == 1:
-				RESPONSE = '"' + listToString(commands[0]) + '"'
+				RESPONSE = "'" + listToString(commands[0]) + "'"
 			else:
 				print("Error: Unknown")
 				exit()
